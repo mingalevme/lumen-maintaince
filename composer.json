@@ -1,0 +1,26 @@
+{
+    "name": "mingalevme/lumen-maintaince",
+    "description": "Support for maintaince mode in Lumen",
+    "keywords": [
+        "laravel",
+        "lumen",
+        "maintaince"
+    ],
+    "homepage": "https://github.com/mingalevme/lumen-maintaince",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Mingalev Mikhail",
+            "email": "mingalevme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mingalevme\\Lumen\\Maintaince\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
